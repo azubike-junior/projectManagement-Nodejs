@@ -1,0 +1,6 @@
+var path = require("path");
+
+module.exports = {
+  "models-path": path.resolve("api/database", "models"),
+  "migrations-path": path.resolve("api/database", "migrations"),
+};
